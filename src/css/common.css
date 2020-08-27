@@ -1,0 +1,310 @@
+#talk{
+    position:fixed;
+    z-index: 100;
+    overflow: hidden;
+    margin:0px;
+    top:176px;
+    right:27px;
+}
+#kfllogo{
+    width:32px;
+    height:159px;
+    position: relative;
+    z-index: 100000;
+    cursor:pointer;
+}
+#kfllogo .gotop{
+    display: block;
+    cursor: pointer;
+    position: relative;
+    left:0px;
+    top:0px;
+    width:34px;
+    height:160px;
+    z-index: 1000000;
+}
+#kfllogo .gotop img{
+    width:34px;
+    height:160px;
+}
+.go_top{
+    width: 34px;
+    height:377px;
+    position: fixed;
+    right:687px;
+    margin-right:-660px;
+    top:341px;
+    z-index: 99;
+}
+.go_top .zx2{
+    float: left;
+    width:30px;
+    border:1px solid #ababab;
+    padding:1px;
+    margin-bottom:4px;
+}
+.go_top .zx2 h2{
+    height:24px;
+    line-height: 24px;
+    border-bottom: 1px solid #adadad;
+    color:#5a5a5a;
+    text-align: center;
+    background:#d4d4d4;
+}
+.go_top .zx2 .zxlist{
+    float: left;
+    width:26px;
+    text-align: center;
+    padding:4px 2px 0 2px;
+    background:#d4d4d4;
+}
+.top{
+    width:100%;
+    float: left;
+    height:23px;
+    border-bottom: 1px solid #e2e2e2;
+    line-height: 23px;
+}
+.go_top .return_top{
+    float:left;
+    width:34px;
+    height:33px;
+
+}
+.go_top .return_top img{
+    width:34px;
+    height:33px;
+}
+
+.wrap{
+    width:1002px;
+    margin:0 auto;
+}
+.top_l{
+    
+    float: left;
+}
+.top_r{
+    float: right;
+}
+.top_r span{
+    margin-left:15px;
+}
+.top_l span{
+    margin-left:20px;
+}
+.orange{
+    color:#ff8c00;
+}
+.top_r span{
+    margin-left:15px;
+}
+.topshare{
+    float: right;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    color:#7b7979;
+    padding-left:5px;
+    padding-top:2px;
+    
+}
+
+.head{
+    float: left;
+    width:100%;
+    background: url(../img/bg_head.jpg) repeat-x;
+    height:125px;
+}
+.headone{
+    height:83px;
+}
+.headone .logo{
+    float: left;
+    padding-top: 18px;
+    width:282px;
+}
+.headone .logo a{
+    display: block;
+    width:280px;
+    height:50px;
+}
+.headone .logo a img{
+    width:280px;
+    height:50px;
+}
+.search{
+    float:left;
+    width:381px;
+    margin-top:13px;
+    line-height: 26px;
+}
+.search .searchone{
+    float: left;
+    background: url(../img/bg_search.jpg) no-repeat;
+    width:381px;
+    height:39px;
+    overflow: hidden;
+    margin-bottom:3px ;
+}
+.search .searchone .txt_search{
+    width:259px;
+    float:left;
+    margin-left:5px;
+    padding-left:29px ;
+    margin-top:5px;
+    height:29px;
+    line-height:29px;
+    padding-right:10px;
+    background:none;
+    border:0;
+    color:#b4b4b4;
+}
+.search .searchone .b_search{
+    background:url(../img/btn_search.jpg) no-repeat;
+    float: left;
+    width:72px;
+    height:29px;
+    border:0;
+    cursor:pointer;
+    margin-top:5px;
+
+}
+.search span{
+    background: url(../img/icon_jiaoh.jpg) 5px 8px no-repeat;
+    float: left;
+    padding-left:21px;
+    padding-right:5px;
+}
+.htime{
+    float: right;
+    margin-top:21px;
+}
+/* headtow */
+.headtwo{
+    float: left;
+    background: url(../img/bg_nav.jpg) no-repeat;
+    width:100%;
+    height:41px;
+}
+.headtwo .navlist{
+    float: left;
+}
+.headtwo .navlist li{
+    float: left;
+    text-align: center;
+    line-height: 41px;
+    font-size: 14px;
+}
+.navlist li a{
+    color:#fff;
+    display: block;
+    padding:0 13px;
+}
+.navlist li a.home, .navlist li a.home:hover{
+    background: url(../img/nav_home.jpg) 20px 13px no-repeat;
+    padding: 0 8px 0 43px;
+}
+.headtwo .navlist li .homes:hover{
+    background: orange;
+}
+.nav_buy{
+    float: right;
+    border:1px solid #585858;
+    height:27px;
+    margin:7px 8px 0 0;
+    width:205px;
+    background:url(../img/bg_gbuy.jpg) repeat-x;
+}
+.nav_buy .nav_buy_sp1{
+    float: left;
+    background: url(../img/icon_buy.jpg) no-repeat;
+    width:17px;
+    height:14px;
+    margin:7px 13px 0 7px;
+
+    
+}
+.nav_buy .nav_buy_sp2{
+    float: left;
+    line-height: 27px;
+}
+
+.Arial{
+    font-family:"Arial", Helvetica, sans-serif ;
+}
+.f14{
+    font-size: 14px;
+}
+.b_navbuy{
+    float:right;
+    background: url(../img/b_gobuy.jpg) no-repeat;
+    width:67px;
+    height:27px;
+    border:0;
+    cursor:pointer;
+}
+
+/* foot */
+.foot{
+    float: left;
+    width:100%;
+    margin-bottom: 19px;
+    margin-top:10px;
+}
+.f_top{
+    float: left;
+    width:1000px;
+    border:1px solid #dcdcdc;
+    background:#f9f9f9;
+}
+.links-panel{
+    float: left;
+    width: 141px;
+    padding-left: 18px;
+    padding-top:27px;
+    height:112px;
+    padding-bottom: 42px;
+    border-right:1px solid #e0e0e0;
+}
+.ftlist li{
+    float: left;
+    width: 100%;
+}
+.ftlist li h2{
+    background: url(../img/icon_deng.jpg) 6px center no-repeat;
+    padding-left: 30px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    line-height: 37px;
+}
+.ftlist li a{
+    float: left;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    color: #616060;
+}
+.ftlist li h2.help{
+    background: url(../img/icon_ka.jpg) left no-repeat;
+}
+.ftlist li h2.che{
+    background: url(../img/icon_ceh.jpg) left no-repeat;
+}
+.ftlist li h2.ren{
+    background: url(../img/icon_ren.jpg) left no-repeat;
+}
+.ftlist li h2.xin{
+    background: url(../img/icon_xin.jpg) left no-repeat;
+}
+.links-last{
+    float: left;
+    width: 180px;
+    padding-left: 17px;
+    padding-top: 36px;
+}
+.f_bottom{
+    float: left;
+    text-align: center;
+    width: 100%;
+    line-height: 48px;
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+}

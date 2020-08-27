@@ -1,0 +1,251 @@
+.curr{
+    float: left;
+    width: 100%;
+    height: 23px;
+    margin: 2px 0 12px 0;
+}
+.curr_r{
+    float: right;
+    width: 400px;
+}
+.newright{
+    float: right;
+    width: 400px;
+    height: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.currlist{
+    float: left;
+}
+.currlist li{
+    float: left;
+    line-height: 23px;
+    width: 83px;
+    background: url(../img/curr2.gif) no-repeat;
+    margin-left: -8px;
+    color: #fff;
+}
+.currlist li a{
+    padding-left: 18px;
+    display: block;
+    color: #fff;
+}
+.currlist li.hover{
+    width: auto;
+}
+.currlist li.hover .l{
+    float: left;
+    background: url(../img/curr3_01.gif) no-repeat;
+    width: 11px;
+    height: 23px;
+    overflow: hidden;
+}
+.currlist li.hover .c{
+    float: left;
+    background: #666;
+    color: #fff;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.currlist li.hover .r {
+    float: left;
+    background: url(../img/curr3_02.gif) no-repeat;
+    width: 11px;
+    height: 23px;
+    overflow: hidden;
+}
+
+.prodeone{
+    float: left;
+    width: 100%;
+    margin-bottom: 27px;
+}
+.prodeleft{
+    float: left;
+    width: 435px;
+}
+.digbig{
+    float: left;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+}
+.small{
+    position: relative;
+    width:340px;
+    height: 340px;
+}
+.big{
+    width:340px;
+    height: 340px;
+    border:2px solid #000;
+    left:550px;
+    top: 186px;
+    overflow: hidden;
+    z-index: 100;
+    position: absolute;
+    display: none;
+}
+.small img{
+    width: 100%;
+    height: 100%;
+}
+.musk{
+    display: none;
+    z-index: 10;
+    background: #ccc;
+    visibility: visible;
+    position: absolute;
+    opacity: 0.5;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+}
+.big img{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.proscroll{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 3px;
+}
+.proscroll ul li{
+    float: left;
+    width: 84px;
+    height: 67px;
+    margin-right: 1px;
+    overflow: hidden;
+    border: 1px solid #929292;
+}
+.proscroll ul li.current img{
+    width: 80px;
+    height: 63px;
+    border: 2px solid #929292;
+}
+.proscroll ul li img{
+    display: block;
+    width: 84px;
+    height: 67px;
+}
+.proderight{
+    float: right;
+    width: 540px;
+    line-height: 30px;
+    padding-top: 10px;
+    color: #666;
+    position: relative;
+}
+.proderight h1{
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    font-size: 18px;
+    color: #333;
+    line-height: 28px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.sp_tab{
+    float: left;
+}
+
+.peisong{
+    float: left;
+    border: 1px solid #fdd582;
+    line-height: 26px;
+    padding-right: 32px;
+    padding-left: 9px;
+    background: url(../images/icon_peisongj.jpg) 85% center no-repeat;
+    margin-right: 5px;
+}
+
+.hei3{
+    color: #333;
+    line-height: 19px;
+}
+
+.ul01 li{
+    float:left;
+}
+.ul01 .default{
+    background: url(../img/xing1.jpg) no-repeat;
+    width:13px;
+    height: 13px;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.txtshop{
+    float: left;
+    width: 45px;
+    text-align: center;
+    height: 26px;
+    border: 1px solid #dcdcdc;
+    margin-left: 41px;
+    color: #f66200;
+    font-weight: bold;
+    line-height: 26px;
+}
+.shopjia{
+    float: left;
+    width: 29px;
+    margin-left: 1px;
+}
+.btnjia{
+    float: left;
+    background: url(../img/icon_jia.jpg) no-repeat;
+    width: 29px;
+    height: 13px;
+    cursor: pointer;
+    border: 0;
+    margin-bottom: 1px;
+}
+.btnjian{
+    float: left;
+    background: url(../img/icon_jian2.jpg) no-repeat;
+    width: 29px;
+    height: 13px;
+    cursor: pointer;
+    border: 0;
+}
+.gobuy{
+    float: left;
+    width: 100%;
+    margin-top: 14px;
+    margin-bottom: 25px;
+}
+.b_buy{
+    background: url(../img/b_buy.jpg) no-repeat;
+    width: 136px;
+    height: 41px;
+    border: 0;
+    cursor: pointer;
+}
+.b_cart{
+    background: url(../img/b_cart.jpg) no-repeat;
+    width: 151px;
+    height: 41px;
+    border: 0;
+    cursor: pointer;
+}
+.cls{
+    clear: both;
+    line-height: 0px !important;
+    height: 0px !important;
+    font-size: 0px !important;
+}
+.time-show{
+    margin-left: 10px;
+    margin-top:3px;
+    float: left;
+}
+.time-show span{
+    background: #ed1c24;
+    padding: 2px 5px;
+    margin-right: 5px;
+    color:#fff;
+}
+

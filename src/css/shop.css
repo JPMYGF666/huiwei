@@ -1,0 +1,133 @@
+.bgmain{
+    float: left;
+    width:100%;
+    background: url(../img/bg_main.jpg) repeat-x;
+    padding-top: 14px;
+}
+.table{
+    margin-top:30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table th{
+    background: #666666;
+    line-height: 38px;
+    color: #FFF;
+    font-weight: normal;
+}
+p{
+    line-height: 30px;
+    text-align: center;
+}
+.jies{
+    border-bottom:2px solid #bdbdbd;
+    margin-top:10px;
+    padding:25px;
+    background: #e4e4e4;
+    width:949px;
+}
+
+.jies_l{
+    width: 100%;
+    height: 50px;
+    margin-bottom:12px;
+    border-bottom:1px solid #fff;
+}
+.jies_l .qingk{
+    float: left;
+}
+.jies_l .jine{
+    float: right;
+}
+.cls{
+    clear: both;
+    line-height: 0px !important;
+    height: 0px !important;
+    font-size: 0px !important;
+}
+.jies_r{
+    width: 100%;
+    height: 20px;
+}
+.bntl{
+    float: left;
+}
+.bntr{
+    float: right;
+}
+.trcolor{
+    background:#fafafa;
+}
+.shoptable td.leftborder{
+    border-left: 1px solid #d6d6d6;
+}
+.shoptable td{
+    height: 78px;
+}
+.shop_img{
+    float: left;
+    width: 69px;
+    height: 62px;
+    padding: 1px;
+    margin-left: 9px;
+    margin-right: 15px;
+}
+.table td span{
+    float: left;
+    margin-top: 28px;
+}
+.table th{
+    background: #666666;
+    line-height: 38px;
+    color: #FFF;
+    font-weight: normal;
+}
+.txtshop{
+    float: left;
+    width: 45px;
+    text-align: center;
+    height: 26px;
+    border: 1px solid #dcdcdc;
+    margin-left: 41px;
+    color: #f66200;
+    font-weight: bold;
+    line-height: 26px;
+}
+.shopjia{
+    float: left;
+    width: 29px;
+    margin-left: 1px;
+}
+.btnja{
+    float: left;
+    background: url(../img/icon_jia.jpg) no-repeat;
+    width: 29px;
+    height: 13px;
+    cursor: pointer;
+    border: 0;
+    margin-bottom: 1px;
+}
+.btnjian{
+    float: left;
+    background: url(../img/icon_jian2.jpg) no-repeat;
+    width: 29px;
+    height: 13px;
+    cursor: pointer;
+    border: 0;
+}
+.jiaru{
+    background: url(../img/cart_icon_xx.png) no-repeat;
+    padding-left: 10px;
+    line-height: 18px;
+    display: block;
+    margin-left: 20px;
+    color: #666;
+}
+.detal {
+    background: url(../img/cart_icon_detel.jpg) no-repeat;
+    padding-left: 10px;
+    line-height: 18px;
+    display: block;
+    margin-left: 20px;
+    color: #666;
+}

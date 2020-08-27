@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+    <div id="talk">
+        <div id="kfllogo" class="lelem">
+            <div class="lelem">
+                <img src="../img/icon_on_90071101452759173.gif"/>
+            </div>
+        </div>
+    </div>
+    <div class="go_top">
+        <div class="zx2">
+            <h2>咨询</h2>
+            <ul class="zxlist">
+            </ul>
+        </div>
+        <a class="top return_top" title="返回顶部" href="#gotop">
+            <img src="../img/top.jpg">
+        </a>
+    </div>
+    <div class="top">
+    <div class="wrap clearfix">
+        <div class="top_l">
+            你好，欢迎光临惠威官方购物商城！
+            <span>
+                [
+                <a class="orange" href="#">登录</a>
+                ][
+                <a class="orange" href="#">免费注册</a>
+                ]
+            </span>
+        </div>
+        <div class="top_r">
+            <div class="topshare" style="width: 190px; overflow: hidden;">
+                <div class="jiathis_style">
+                    <span class="jiathis_txt">分享惠威:</span>
+                    <a class="button_qzone"></a>
+                    <a class="button_tsina"></a>
+                    <a class="button_weixin"></a>
+                    <a class="jiatxt" target="_blank"></a>
+                    <a class="counter_style"></a>
+                </div>
+            </div>
+            <span style="float: right">
+                <a id="gotop_a" name="gotop_a"> </a>
+                <a href="#">Engllish</a>
+                |
+                <a href="#">手机版</a>
+                |
+                <a href="#">我的订单</a>
+                |
+                <a href="#">帮助中心</a>
+                |
+                <a href="#">商城快讯</a>
+                |
+            </span>
+        </div>
+    </div>
+    </div>
+    <!-- 头部 -->
+    <div class="head">
+        <div class="wrap">
+            <div class="headone">
+                <div class="logo">
+                    <a href="#" target="_blank">
+                        <img src="../img/logo.jpg">
+                    </a>
+                </div>
+                <div class="search">
+                    <div class="searchone">
+                        <input class="txt_search" id="txtkey" name="txtkey" type="text" onkeypress="Enterpress(event)" onkeydown="Enterpress()">
+                        <input class="b_search" type="button" value="">
+                    </div>
+                    <span>热门搜索:</span>
+                    <a href="#">【8.12-8.13秒杀活动，点我】</a>
+                    <a href="#">M500</a>
+                    <a href="#">M5A</a>
+                    <a href="#">H8</a>
+                </div>
+                <div class="htime">
+                    <a href="#"><img src="../img/01多媒体旗舰店.jpg"></a>
+                    <a href="#"><img src="../img/01天猫旗舰店.jpg"></a>
+                    <a href="#"><img src="../img/01影音旗舰店.jpg"></a>
+                    <a href="#"><img src="../img/01影音专营店.jpg"></a>
+                </div>
+            </div>
+            <div class="headtwo">
+                <ul class="navlist">
+                    <li>
+                        <a class="home" href="#">首页</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">公司简介</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">产品中心</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">新闻中心</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">销售网络</a>
+                    </li>
+                    <li>
+                        <a class="" style="display: none;" href="#">人才与服务</a>
+                    </li>
+
+                    <li>
+                        <a class="" style="display: none;" href="#">限时抢购</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">案例中心</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">私人影院定制</a>
+                    </li>
+                </ul>
+                <div class="nav_buy">
+                    <span class="nav_buy_sp1"></span>
+                    <span class="nav_buy_sp2">
+                        购物车
+                        <i class="f14 orange Arial">
+                            (
+                            <a href="#" class="orange">
+                                <span id="divcartsum">0</span>
+                            </a>
+                            )
+                        </i>
+                    </span>
+                    <input class="b_navbuy" type="button" value="" name="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- head end -->
+    <div class="bgmain">
+        <div class= "wrap">
+            <!-- main -->
+            <table class="table">
+           <tbody>
+               <tr class="wwk">
+                   <th width="13%">商品编号</th>
+                   <th width="40%" align="left">商品明细</th>
+                   <th width="13%">单价</th>
+                   <th width="13%">数量</th>
+                   <th width="10%">小计</th>
+               </tr>
+               <!-- <tr class="wwk">
+                   <td class="Arial leftborder" align="center"> </td>
+                   <td>
+                    <a href="#" target="_blank">
+                         
+                    </a>
+                    <span>
+                        <a href="#" target="_blank">
+                            
+                        </a>
+                    </span>
+                </td>
+                <td class="orange b Arial" align="center">
+                    购物车空空如也！
+                </td>
+                <td>
+                     
+                </td>
+                <td class="rightborder" align="center">
+                     
+                </td>
+            </tr> -->
+           </tbody>
+        </table>
+            <div class="cls"></div>
+           <!-- <div class="cls"></div> -->
+           <div class="jies">
+               <div class="jies_l">
+                    <div class="qingk">
+                        <input type="button" value="清空购物车" class="qingkong">
+                        <input type="button" value="全部收藏" class="shoucang">
+                    </div>
+                   <div class="jine">
+                        <i class="piece">0</i><span>件商品总价:</span><span>￥<i class="pirce">0</i></span>
+                   </div>
+               </div>
+               <div class="cls"></div>
+               <div class="jies_r">
+                   <button class="bntl">返回购物</button>
+                   <button class="bntr">去结算</button>
+               </div>
+           </div>
+            <!-- main end -->
+            <div class="cls"></div>
+            <!-- foot -->
+        <div class="foot">
+            <div class="f_top">
+                <div class="links-panel">
+                    <ul class="ftlist">
+                        <li>
+                            <h2>
+                            购物指南
+                            </h2>
+                        </li>  
+                        <li><a href="#">
+                            购物流程</a>
+                        </li>
+                            
+                        <li><a href="#">
+                            订单状态</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links-panel">
+                    <ul class="ftlist">
+                        <li>
+                            <h2 class="help">
+                                支付帮助</h2>
+                        </li>
+                        <li><a href="#">
+                            在线支付</a></li>
+                    
+                        <li><a href="#">
+                            转账汇款</a></li>
+                    </ul>
+                </div>
+                <div class="links-panel">
+                    <ul class="ftlist">
+                        <li>
+                            <h2 class="che">
+                                配送方式</h2>
+                        </li>
+                        <li><a href="#">
+                            快递物流</a></li>
+                    
+                        <li><a href="#">
+                            物流条款</a></li>
+                    </ul>
+                </div>
+                <div class="links-panel">
+                    <ul class="ftlist">
+                        <li>
+                            <h2 class="ren">
+                                服务条款</h2>
+                        </li>
+                        
+                            <li><a href="#">
+                                售后保障</a></li>
+                            
+                            <li><a href="#">
+                                退换产品</a></li>
+                    </ul>
+                </div>
+                <div class="links-panel">
+                    <ul class="ftlist">
+                        <li>
+                            <h2 class="xin">
+                                关于惠威</h2>
+                        </li>
+                        <li><a href="#">
+                                    联系我们</a></li>   
+                        <li><a href="http://m.hivi.com/" target="_blank">移动版</a></li>
+                        <li><a href="http://www.hivi.us/" target="_blank">English</a></li>
+                    </ul>
+                </div>
+                <div class="links-last">
+                    <h2 style="display:none">
+                        联系方式</h2>
+                    <div class="cls">
+                    </div>
+                    <p>
+                        <img src="../img/hiviweixin.jpg" width="100" height="115">
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cls"></div>
+            <div class="f_bottom">
+                    惠威科技&nbsp; 版权所有 &nbsp;
+                    <a href="http://beian.miit.gov.cn">粤ICP备11013245号</a>
+                     ©2016-2018 HiVi All rights reserved.
+                 <div style="display:none;">
+            
+                </div>
+                    <div style="width:21px; height:23px; float:right; margin-top:11px; display:none;">
+           
+            <a href="#" target="_blank">
+                <img src="https://hmcdn.baidu.com/static/hmt/icon/21.gif" width="20" height="20" border="0">
+            </a>
+            
+            </div>
+        </div>
+        <!-- foot end -->
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+<!-- <div class="box" style="width:1200px;height:5000px;background:pink;">
+    <img src="" alt="">
+</div> -->
+
+
+
+
+
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/shop.js"></script>

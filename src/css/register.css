@@ -1,0 +1,611 @@
+@charset "UTF-8";
+#talk {
+  position: fixed;
+  z-index: 100;
+  overflow: hidden;
+  margin: 0px;
+  top: 176px;
+  right: 27px;
+}
+
+#kfllogo {
+  width: 32px;
+  height: 159px;
+  position: relative;
+  z-index: 100000;
+  cursor: pointer;
+}
+#kfllogo .gotop {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 34px;
+  height: 160px;
+  z-index: 1000000;
+}
+#kfllogo .gotop img {
+  width: 34px;
+  height: 160px;
+}
+
+.go_top {
+  width: 34px;
+  height: 377px;
+  position: fixed;
+  right: 687px;
+  margin-right: -660px;
+  top: 341px;
+}
+.go_top .return_top {
+  float: left;
+  width: 34px;
+  height: 33px;
+}
+.go_top .return_top img {
+  width: 34px;
+  height: 33px;
+}
+.go_top img {
+  width: 34px;
+  height: 160px;
+}
+.go_top .zx2 {
+  float: left;
+  width: 30px;
+  border: 1px solid #ababab;
+  padding: 1px;
+  margin-bottom: 4px;
+}
+.go_top .zx2 h2 {
+  height: 24px;
+  line-height: 24px;
+  border-bottom: 1px solid #adadad;
+  color: #5a5a5a;
+  text-align: center;
+  background: #d4d4d4;
+}
+.go_top .zx2 .zxlist {
+  float: left;
+  width: 26px;
+  text-align: center;
+  padding: 4px 2px 0 2px;
+  background: #d4d4d4;
+}
+
+.wrap {
+  width: 1002px;
+  margin: 0 auto;
+}
+
+.top {
+  width: 100%;
+  float: left;
+  height: 23px;
+  border-bottom: 1px solid #e2e2e2;
+  line-height: 23px;
+}
+.top .top_l {
+  float: left;
+}
+.top .top_l span {
+  margin-left: 15px;
+}
+.top .top_r {
+  float: right;
+}
+.top .top_r span {
+  margin-left: 20px;
+}
+.top .top_r .topshare {
+  float: right;
+  font-family: "微软雅黑";
+  color: #7b7979;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.head {
+  float: left;
+  width: 100%;
+  background: url(../img/bg_head.jpg) repeat-x;
+  height: 125px;
+}
+.head .headone {
+  height: 83px;
+}
+.head .headone .logo {
+  float: left;
+  padding-top: 18px;
+  width: 282px;
+}
+.head .headone .logo a {
+  display: block;
+  width: 280px;
+  height: 50px;
+}
+.head .headone .logo a img {
+  width: 280px;
+  height: 50px;
+}
+.head .headone .search {
+  float: left;
+  width: 381px;
+  margin-top: 13px;
+  line-height: 26px;
+}
+.head .headone .search .searchone {
+  float: left;
+  background: url(../img/bg_search.jpg) no-repeat;
+  width: 381px;
+  height: 39px;
+  overflow: hidden;
+  margin-bottom: 3px;
+}
+.head .headone .search .searchone .txt_search {
+  width: 259px;
+  float: left;
+  margin-left: 5px;
+  padding-left: 29px;
+  margin-top: 5px;
+  height: 29px;
+  line-height: 29px;
+  padding-right: 10px;
+  background: none;
+  border: 0;
+  color: #b4b4b4;
+}
+.head .headone .search .searchone .b_search {
+  background: url(../img/btn_search.jpg) no-repeat;
+  float: left;
+  width: 72px;
+  height: 29px;
+  border: 0;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.head .headone .search span {
+  background: url(../img/icon_jiaoh.jpg) 5px 8px no-repeat;
+  float: left;
+  padding-left: 21px;
+  padding-right: 5px;
+}
+.head .headone .htime {
+  float: right;
+  margin-top: 21px;
+}
+.head .headtwo {
+  float: left;
+  background: url(../img/bg_nav.jpg) no-repeat;
+  width: 100%;
+  height: 41px;
+}
+.head .headtwo .navlist {
+  float: left;
+}
+.head .headtwo .navlist li {
+  float: left;
+  text-align: center;
+  line-height: 41px;
+  font-size: 14px;
+}
+.head .headtwo .navlist li a {
+  color: #fff;
+  display: block;
+  padding: 0 13px;
+}
+.head .headtwo .navlist li a.home {
+  padding: 0 8px 0 43px;
+}
+.head .headtwo .nav_buy {
+  float: right;
+  border: 1px solid #585858;
+  height: 27px;
+  margin: 7px 8px 0 0;
+  width: 205px;
+  background: url(../img/bg_gbuy.jpg) repeat-x;
+}
+.head .headtwo .nav_buy .nav_buy_sp1 {
+  float: left;
+  background: url(../img/icon_buy.jpg) no-repeat;
+  width: 17px;
+  height: 14px;
+  margin: 7px 13px 0 7px;
+}
+.head .headtwo .nav_buy .nav_buy_sp2 {
+  float: left;
+  line-height: 27px;
+}
+
+.navlist li a.home, .navlist li a.home:hover {
+  background: url(../img/nav_home.jpg) 20px 13px no-repeat;
+  padding: 0 8px 0 43px;
+}
+
+.orange {
+  color: #ff8c00;
+}
+
+.Arial {
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.cls {
+  clear: both;
+  line-height: 0px !important;
+  height: 0px !important;
+  font-size: 0px !important;
+}
+
+.b_navbuy {
+  float: right;
+  background: url(../img/b_gobuy.jpg) no-repeat;
+  width: 67px;
+  height: 27px;
+  border: 0;
+  cursor: pointer;
+}
+
+/* headend */
+.bgmain {
+  float: left;
+  width: 100%;
+  background: url(../img/bg_main.jpg) repeat-x;
+  padding-top: 14px;
+}
+.bgmain .curr {
+  float: left;
+  width: 100%;
+  height: 23px;
+  margin: 2px 0 12px 0;
+}
+.bgmain .curr .curr_r {
+  float: right;
+  width: 400px;
+}
+.bgmain .curr .curr_r .newright {
+  float: left;
+  width: 400px;
+  height: 20px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+.bgmain .curr .curr_r .newright .show_index3 {
+  overflow: hidden;
+  width: 100%;
+  height: 20px;
+}
+.bgmain .curr .curr_r .newright .show_index3 .arrLeft {
+  float: left;
+  cursor: pointer;
+  display: none;
+}
+.bgmain .curr .curr_r .newright .show_index3 .arrCont {
+  float: left;
+  overflow: hidden;
+  width: 400px;
+  height: 20px;
+}
+.bgmain .curr .curr_r .newright .show_index3 .arrRight {
+  float: left;
+  cursor: pointer;
+  display: none;
+}
+.bgmain .curr .currlist {
+  float: left;
+  width: 500px;
+}
+.bgmain .curr .currlist li {
+  float: left;
+  line-height: 23px;
+  width: 83px;
+  background: url(../img/curr2.gif) no-repeat;
+  margin-left: -8px;
+  color: #fff;
+}
+.bgmain .curr .currlist li a {
+  padding-left: 18px;
+  display: block;
+  color: #fff;
+}
+.bgmain .curr .currlist li .l {
+  float: left;
+  background: url(../img/curr3_01.gif) no-repeat;
+  width: 11px;
+  height: 23px;
+  overflow: hidden;
+}
+.bgmain .curr .currlist li .c {
+  float: left;
+  background: #666;
+  color: #fff;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.bgmain .curr .currlist li .r {
+  float: left;
+  background: url(../img/curr3_02.gif) no-repeat;
+  width: 11px;
+  height: 23px;
+  overflow: hidden;
+}
+.bgmain .curr .currlist li.hover {
+  width: auto;
+}
+.bgmain .login {
+  float: left;
+  color: #4f4d4d;
+  line-height: 50px;
+}
+.bgmain .login span {
+  font-size: 30px;
+  font-family: 微软雅黑;
+  color: #e55810;
+  float: left;
+  margin-right: 33px;
+}
+.bgmain .login i {
+  float: left;
+  margin-top: 9px;
+}
+.bgmain .login2 {
+  float: left;
+  width: 1000px;
+  border: 1px solid #c8c8c8;
+  margin-bottom: 5px;
+  background: #f6f6f6;
+}
+.bgmain .login2 h2 {
+  font-size: 30px;
+  font-weight: 微软雅黑;
+  color: #e55810;
+}
+.bgmain .login2 .l_left {
+  float: left;
+  width: 380px;
+  padding: 28px 23px 0 31px;
+  overflow: hidden;
+}
+.bgmain .login2 .l_left .ltable {
+  float: left;
+  width: 337px;
+  padding-top: 27px;
+}
+.bgmain .login2 .l_left .ltable .l_table {
+  border-collapse: collapse;
+}
+.bgmain .login2 .l_left .ltable .l_table i {
+  float: left;
+  margin-left: 13px;
+}
+.bgmain .login2 .l_left .ltable .l_table td.l_name {
+  font-family: 微软雅黑;
+  font-size: 14px;
+}
+.bgmain .login2 .l_left .ltable .l_table td {
+  padding-bottom: 19px;
+}
+.bgmain .login2 .l_left .ltable .l_table td .txtlname {
+  background: url(../img/login_bg1.jpg) no-repeat;
+  padding: 0 4px 0 29px;
+  width: 216px;
+  height: 29px;
+  line-height: 29px;
+  border: 0px;
+}
+.bgmain .login2 .l_left .ltable .l_table td .txtpwd {
+  background: url(../img/login_bg2.jpg) no-repeat;
+  height: 30px;
+  line-height: 30px;
+}
+.bgmain .login2 .l_left .ltable .l_table td .btnlogin {
+  float: left;
+  background: url(../img/login_img_new1.jpg) no-repeat;
+  width: 244px;
+  height: 45px;
+  cursor: pointer;
+  border: 0px;
+}
+.bgmain .login2 .l_left .ltable .l_table span {
+  float: right;
+}
+.bgmain .login2 .l_left .ltable .l_table .ckxlogin {
+  float: left;
+}
+.bgmain .login2 .l_left .ltable .l_table a {
+  margin-top: 12px;
+  margin-right: 24px;
+  text-decoration: underline;
+}
+.bgmain .login2 .l_left .shou2 {
+  float: left;
+}
+.bgmain .login2 .l_left .shou2 .shoulist {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+.bgmain .login2 .l_left .shou2 .shoulist li {
+  float: left;
+  width: 100px;
+}
+.bgmain .login2 .l_right {
+  float: left;
+  width: 378px;
+  padding: 25px 106px 0 81px;
+  border-left: 1px solid #c8c8c8;
+  padding-bottom: 57px;
+  overflow: hidden;
+}
+.bgmain .login2 .l_right .ltable {
+  float: left;
+  width: 337px;
+  padding-top: 27px;
+}
+.bgmain .login2 .l_right .ltable .l_table {
+  border-collapse: collapse;
+}
+.bgmain .login2 .l_right .ltable .l_table .ckxlogin {
+  float: left;
+}
+.bgmain .login2 .l_right .ltable .l_table i {
+  margin-left: 13px;
+  display: inline;
+}
+.bgmain .login2 .l_right .ltable .l_table img {
+  margin-left: 5px;
+  margin-right: 13px;
+  display: inline;
+}
+.bgmain .login2 .l_right .ltable .l_table a {
+  margin-top: 12px;
+  margin-right: 24px;
+  text-decoration: underline;
+}
+.bgmain .login2 .l_right .ltable .l_table span {
+  float: right;
+}
+.bgmain .login2 .l_right .ltable .l_table td {
+  padding-bottom: 19px;
+}
+.bgmain .login2 .l_right .ltable .l_table td .txtlogin2 {
+  width: 231px;
+  height: 25px;
+  border: 1px solid #bfbfbf;
+  padding: 0 5px 0 5px;
+  line-height: 25px;
+}
+.bgmain .login2 .l_right .ltable .l_table td .txt_lyzm {
+  float: left;
+  width: 96px;
+  height: 25px;
+  padding: 0 5px 0 5px;
+  line-height: 25px;
+  border: 1px solid #bfbfbf;
+}
+.bgmain .login2 .l_right .ltable .l_table td .textsm {
+  border: 1px solid #cbcbcb;
+  width: 435px;
+  height: 100px;
+  overflow: scroll;
+  overflow-x: scroll;
+  overflow-x: hidden;
+}
+.bgmain .login2 .l_right .ltable .l_table td input.btnliginzc {
+  background: url(../img/login_img_new2.jpg) no-repeat;
+}
+.bgmain .login2 .l_right .ltable .l_table td .btnlogin {
+  float: left;
+  background: url() no-repeat;
+  width: 244px;
+  height: 45px;
+  cursor: pointer;
+  border: 0px;
+}
+.bgmain .login2 .l_right .ltable .l_table td.l_name {
+  font-size: 14px;
+  font-family: 微软雅黑;
+}
+
+select, input {
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.hei6 {
+  color: #666;
+}
+
+/* foot */
+.foot {
+  float: left;
+  width: 100%;
+  margin-bottom: 19px;
+  margin-top: 10px;
+}
+.foot .f_top {
+  float: left;
+  width: 1000px;
+  border: 1px solid #dcdcdc;
+  background: #f9f9f9;
+}
+.foot .f_top .links-panel {
+  float: left;
+  width: 141px;
+  padding-left: 18px;
+  padding-top: 27px;
+  height: 112px;
+  padding-bottom: 42px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.ftlist li {
+  float: left;
+  width: 100%;
+}
+.ftlist li h2 {
+  background: url(../img/icon_deng.jpg) 6px center no-repeat;
+  padding-left: 30px;
+  font-family: 微软雅黑;
+  font-size: 14px;
+  line-height: 37px;
+}
+.ftlist li a {
+  float: left;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  color: #616060;
+}
+
+.ftlist li h2.help {
+  background: url(../img/icon_ka.jpg) left no-repeat;
+}
+
+.ftlist li h2.che {
+  background: url(../img/icon_ceh.jpg) left no-repeat;
+}
+
+.ftlist li h2.ren {
+  background: url(../img/icon_ren.jpg) left no-repeat;
+}
+
+.ftlist li h2.xin {
+  background: url(../img/icon_xin.jpg) left no-repeat;
+}
+
+.links-last {
+  float: left;
+  width: 180px;
+  padding-left: 17px;
+  padding-top: 36px;
+}
+
+.f_bottom {
+  float: left;
+  text-align: center;
+  width: 100%;
+  line-height: 48px;
+  color: #999999;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.tipError {
+  position: absolute;
+  width: 245px;
+  height: 30px;
+  top: 316px;
+  left: 771px;
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: 微软雅黑;
+  color: #fff;
+  background: #e55810;
+  display: none;
+}
+
+/*# sourceMappingURL=register.css.map */
